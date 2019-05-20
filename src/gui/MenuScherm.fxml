@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<fx:root fx:id="borderPane" prefHeight="500.0" prefWidth="300.0" type="BorderPane" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <Label alignment="CENTER" text="Munchkin" textAlignment="CENTER" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+         <font>
+            <Font size="23.0" />
+         </font></Label>
+   </top>
+   <center>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/afbeeldingen/munchkin.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btnNieuwSpel" mnemonicParsing="false" onAction="#startNieuwSpel" prefWidth="130.0" />
+            <Button fx:id="btnLaden" mnemonicParsing="false" onAction="#laadSpel" prefWidth="130.0" />
+            <Button fx:id="btnStoppen" mnemonicParsing="false" onAction="#stop" prefWidth="130.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets top="20.0" />
+         </BorderPane.margin>
+      </VBox>
+   </center>
+   <bottom>
+   </bottom>
+   <stylesheets>
+      <URL value="@stylesheet.css" />
+   </stylesheets>
+</fx:root>

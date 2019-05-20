@@ -1,0 +1,91 @@
+.root {
+    -fx-font-family: "Palatino Linotype";
+}
+
+#borderPane, .dialog, .alert {
+    -fx-background-image:url("../resources/afbeeldingen/background.jpg");
+}
+
+.dialog .gridPane, .dialog .resultaat {
+    -fx-background-color: #FED897;
+    -fx-border-color: #3B0902;
+}
+
+.label {
+    -fx-text-fill: #3B0902;
+    -fx-font-family: "Palatino Linotype";
+}
+
+.button, .combo-box, .combo-box .list-cell:selected, .combo-box .list-view .list-cell:selected, .combo-box .list-view .list-cell:hover {
+    -fx-background-color: #3B0902;
+    -fx-text-fill: #FED897;
+}
+.combo-box .arrow {
+    -fx-background-color: #FED897;
+}
+
+.combo-box .list-view .list-cell{
+    -fx-border-color: #3B0902;
+}
+
+.combo-box .list-view {
+    -fx-border-width: 0;
+}
+
+.button:hover, .combo-box .list-view .list-cell {
+    -fx-background-color: #821305;
+    -fx-text-fill: #FED897;
+}
+
+#lblAantal, .alert {
+    -fx-font-size: 14px;
+}
+
+.text-field {
+    -fx-background-color: #FED897;
+    -fx-text-fill: #3B0902;
+}
+
+.bottom {
+    -fx-background-image: none;
+    -fx-background-color: #FED897;
+    -fx-font-size: 14px;
+}
+
+.scroll-pane > .viewport {
+    -fx-background-color: transparent;
+}
+
+.scroll-pane, #hBoxHandKaarten {
+    -fx-background-color: #FED897;
+}
+
+.spelerBox .label {
+    -fx-text-fill: #FED897;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
+
+#stapel {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6), 0, 20, 10, 10);
+}
+
+
+.list-view .list-cell {
+    -fx-background-color: #FED897;
+    -fx-text-fill: #3B0902;
+    -fx-font-size: 14px;
+}
+
+.list-view {
+    -fx-focus-color: transparent;
+    -fx-background-color: #FED897;
+}
+
+.list-view .list-cell:selected, .field-fout {
+    -fx-text-fill: #FED897;
+    -fx-background-color: #821305;
+}
+
+
+
